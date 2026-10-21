@@ -47,7 +47,7 @@ The fictional business leadership team needs a clear view of sales, profitabilit
 
 The dashboard is designed for an executive audience, with KPI cards, trends, category and segment breakdowns, shipping information, customer and product views, and a geographic view. Slicers are intended to let users explore results by year, segment, category, and state.
 
-**Workbook:** [Download the Excel dashboard](https://github.com/claudiaalamir21-tech/Staples-Inc--Sales-Perfomance-Analysis-By-Excel/raw/refs/heads/main/dashboard/Executive%20Retail%20Dashboard.xlsx)  
+**Workbook:** [Download the Excel dashboard](https://github.com/claudiaalamir21-tech/Staples-Inc--Sales-Perfomance-Analysis-By-Excel/raw/refs/heads/main/dashboard/Executive%20Retail%20Dashboard.xlsx.xlsx)  
 **Executive presentation:** [Download the executive presentation](https://github.com/claudiaalamir21-tech/Staples-Inc--Sales-Perfomance-Analysis-By-Excel/raw/refs/heads/main/report/Staples%20Executive%20Presentation.pptx)  
 **Executive summary PDF:** [CEO Email](docs/CEO%20Email.pdf)
 
@@ -56,7 +56,7 @@ The dashboard is designed for an executive audience, with KPI cards, trends, cat
 ```
 ├── README.md
 ├── dashboard/
-│   ├── Executive Retail Dashboard.xlsx
+│   ├── Executive Retail Dashboard.xlsx.xlsx
 │   └── dashboard preview.png.png
 ├── report/
 │   └── Staples Executive Presentation.pptx
