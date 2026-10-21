@@ -2,7 +2,7 @@
 
 **An interactive Excel dashboard and executive review of four years of retail sales data, with a focus on profitability and practical business recommendations.**
 
-![Executive Retail Performance Dashboard](dashboard/dashboard-preview.png)
+![Executive Retail Performance Dashboard](dashboard/dashboard%20preview.png.png)
 
 > **Disclaimer:** This portfolio project uses a simulated, publicly available retail dataset. Staples branding is illustrative only; this project is not affiliated with or endorsed by Staples Inc.
 
@@ -57,7 +57,7 @@ The dashboard is designed for an executive audience, with KPI cards, trends, cat
 ├── README.md
 ├── dashboard/
 │   ├── Executive Retail Dashboard.xlsx
-│   └── dashboard-preview.png
+│   └── dashboard preview.png.png
 ├── report/
 │   └── Staples Executive Presentation.pptx
 └── docs/
