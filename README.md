@@ -1,81 +1,76 @@
 # Executive Retail Performance Dashboard (Excel)
 
-**An interactive Excel dashboard and executive review that turns four years of retail sales data into four clear, profit-focused recommendations.**
+**An interactive Excel dashboard and executive review of four years of retail sales data, with a focus on profitability and practical business recommendations.**
 
-![Executive Retail Performance Dashboard](dashboard\dashboard preview.png)
+![Executive Retail Performance Dashboard](dashboard/dashboard-preview.png)
 
-> **Disclaimer:** This is a portfolio project built on a simulated, publicly available retail dataset. The Staples name and logo are used for illustration only. No real company data is used, and this project is not affiliated with or endorsed by Staples Inc.
+> **Disclaimer:** This portfolio project uses a simulated, publicly available retail dataset. Staples branding is illustrative only; this project is not affiliated with or endorsed by Staples Inc.
 
----
+## Project Overview
 
-## The Business Request
-
-The (fictional) CEO asked the data analytics team for an interactive executive dashboard to monitor sales performance, profitability, customer behavior, product performance, and operational efficiency, and to highlight the trends, opportunities, and areas of concern that matter most.
+The fictional business leadership team needs a clear view of sales, profitability, customer behavior, product performance, and operational efficiency. This project uses Excel dashboards and an executive presentation to highlight trends, opportunities, and areas that merit further investigation.
 
 ## What I Did
 
-- **Cleaned** the raw data in Excel (formatting, duplicates, data types, consistency checks).
-- **Modeled** the data with calculated measures: total sales, profit, profit margin, orders, quantity, customers, and return rate.
-- **Built** an interactive dashboard with slicers for State, Order Date (Year), Segment, and Category.
-- **Analyzed** the results to find what is driving profit and what is quietly draining it.
-- **Presented** the findings and recommendations to leadership in an executive deck.
+- Prepared and checked the data in Excel, including formatting, duplicates, data types, and consistency.
+- Built calculated metrics for sales, profit, profit margin, orders, quantity, customers, and return rate.
+- Created an interactive dashboard with slicers for state, year, segment, and category.
+- Analyzed product, discount, and geographic performance.
+- Summarized findings and recommendations in an executive presentation.
 
-**Tools:** Microsoft Excel (data cleaning, calculated measures, charts, slicers, dashboard design) and PowerPoint (executive presentation).
+**Tools:** Microsoft Excel and PowerPoint.
 
-## Headline Numbers (FY 2014 to 2017)
+## Headline Metrics (2014–2017)
 
 | Total Sales | Total Profit | Profit Margin | Orders | Customers | Return Rate |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | $2.30M | $286K | 12.47% | 5,009 | 793 | 5.91% |
 
-## Key Insights
+## Key Findings
 
-1. **The business is growing.** Sales rose 51% and profit rose 89% from 2014 to 2017, with growth in every year.
-2. **Furniture is the weak spot.** It generates $742K in sales (nearly a third of the total) but earns only a 2.5% margin. Tables (-8.6%) and Bookcases (-3.0%) lose money outright, while Technology and Office Supplies each earn about 17%.
-3. **Deep discounts destroy profit.** Full-price orders earn about a 30% margin, but orders discounted more than 20% lose money, costing an estimated **$135K**.
-4. **Four big states lose money.** Texas, Ohio, Pennsylvania, and Illinois all rank in the top 10 for sales yet post a net loss, roughly **$71K combined**, likely tied to the same discounting pattern.
-5. **Returns are not a problem.** A 5.9% return rate is healthy for retail.
+1. **Sales and profit grew.** Sales increased by approximately 51% and profit by 89% from 2014 to 2017.
+2. **Furniture profitability needs attention.** Furniture generated about $742K in sales but had a margin of roughly 2.5%. Tables and Bookcases were loss-making in this dataset, while Technology and Office Supplies performed more strongly.
+3. **High discounts are associated with losses.** Orders discounted above 20% generated an estimated $135K in losses. This is an association in the analyzed dataset, not proof that discounting alone caused every loss.
+4. **Several high-sales states were unprofitable.** Texas, Ohio, Pennsylvania, and Illinois recorded combined losses of approximately $71K and warrant a closer review of discounting, product mix, and costs.
+5. **The return rate deserves monitoring.** The observed return rate was 5.91%; whether this is acceptable depends on business benchmarks, product mix, and return definitions, so it should not automatically be labeled healthy.
 
 ## Recommendations
 
-| # | Recommendation | Why |
+| # | Recommendation | Rationale |
 |:-:|---|---|
-| 1 | **Cap discounts at 20%** and require manager approval above that | The biggest single lever; targets the ~$135K lost to deep discounting |
-| 2 | **Fix or phase out Tables and Bookcases** (renegotiate supplier costs, raise prices, or trim the assortment) | The rest of Furniture is healthy; the problem is concentrated in two lines |
-| 3 | **Audit discounting in TX, OH, PA, and IL** | These states show the same loss pattern as the deep-discount tiers |
-| 4 | **Double down on Technology and Office Supplies** | They generate about two-thirds of company profit at roughly 17% margins |
+| 1 | Review discounts above 20% and consider approval thresholds | Investigate the estimated losses associated with deep discounts before changing policy |
+| 2 | Investigate Tables and Bookcases | Review pricing, supplier costs, shipping costs, and assortment decisions |
+| 3 | Audit performance in Texas, Ohio, Pennsylvania, and Illinois | Separate the effects of discounts, product mix, and operating costs |
+| 4 | Learn from stronger Technology and Office Supplies performance | Identify profitable products and practices that may be transferable |
 
-Fixing discount discipline and two underperforming product lines could meaningfully lift the 12.5% margin without needing a single new customer.
+## Dashboard
 
-## Dashboard Design
+The dashboard is designed for an executive audience, with KPI cards, trends, category and segment breakdowns, shipping information, customer and product views, and a geographic view. Slicers are intended to let users explore results by year, segment, category, and state.
 
-The dashboard was laid out for a CEO audience: KPI cards at the top for a 5-second health check, then trends, category and segment breakdowns, and a geographic view below. The slicers let executives explore performance by time, customer segment, product category, and state.
-
-**Visuals included:** KPI cards, sales and profit over time, sales by category, profit by segment, shipping mode per order, top 5 customers by quantity, top 5 products by returns, and sales per state (map).
+**Workbook:** [Executive Retail Dashboard](dashboard/Executive%20Retail%20Dashboard.xlsx)  
+**Executive presentation:** [Staples Executive Presentation](report/Staples%20Executive%20Presentation.pptx)  
+**Executive summary PDF:** [CEO Email](docs/CEO%20Email.pdf)
 
 ## Repository Structure
 
 ```
 ├── README.md
-├── data/
-│   ├── raw/          # original dataset
-│   └── cleaned/      # cleaned dataset used for the dashboard
 ├── dashboard/
 │   ├── Executive Retail Dashboard.xlsx
-│   └── dashboard preview.png
+│   └── dashboard-preview.png
 ├── report/
 │   └── Staples Executive Presentation.pptx
 └── docs/
     └── CEO Email.pdf
 ```
 
-## How to Use
+## How to Explore the Project
 
-1. Download `dashboard/Executive Retail Dashboard.xlsx` and open it in Microsoft Excel.
-2. Use the slicers at the top (State, Year, Segment, Category) to filter every chart at once.
-3. Read the full story and recommendations in the presentation inside the `report/` folder.
+1. Download the Excel workbook and open it in Microsoft Excel.
+2. Explore the dashboard and its slicers; some interactive features may depend on Excel desktop support.
+3. Review the presentation and executive summary for the main findings and recommendations.
 
 ## About Me
 
-**Claudia Al-Amir** | Data Analyst
-[LinkedIn](www.linkedin.com/in/claudia-al-amir-131199424) | [Email](claudiaalamir21@gmail.com)
+**Claudia Al-Amir** | Data Analyst  
+[LinkedIn](https://www.linkedin.com/in/claudia-al-amir-131199424) · [Email](mailto:claudiaalamir21@gmail.com)
