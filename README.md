@@ -1,6 +1,6 @@
 # Executive Retail Performance Dashboard (Excel)
 
-**An interactive Excel dashboard and executive review of four years of retail sales data, with a focus on profitability and practical business recommendations.**
+**A retail sales and profitability analysis presented through an Excel dashboard preview and an executive PowerPoint presentation.**
 
 ![Executive Retail Performance Dashboard](dashboard/dashboard%20preview.png.png)
 
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-The fictional business leadership team needs a clear view of sales, profitability, customer behavior, product performance, and operational efficiency. This project uses Excel dashboards and an executive presentation to highlight trends, opportunities, and areas that merit further investigation.
+This project explores four years of retail sales data (2014–2017) to understand sales, profitability, customer behavior, product performance, and operational efficiency. The dashboard preview showcases the visual analysis, while the executive presentation communicates the main findings and recommendations.
 
 ## What I Did
 
@@ -43,32 +43,25 @@ The fictional business leadership team needs a clear view of sales, profitabilit
 | 3 | Audit performance in Texas, Ohio, Pennsylvania, and Illinois | Separate the effects of discounts, product mix, and operating costs |
 | 4 | Learn from stronger Technology and Office Supplies performance | Identify profitable products and practices that may be transferable |
 
-## Dashboard
+## Dashboard Preview
 
-The dashboard is designed for an executive audience, with KPI cards, trends, category and segment breakdowns, shipping information, customer and product views, and a geographic view. Slicers are intended to let users explore results by year, segment, category, and state.
+The preview above showcases the visual design of the Excel dashboard. The interactive workbook is not included in this public portfolio repository.
 
-**Workbook:** [View dashboard online](https://1drv.ms/x/c/F1AEDA90A8B74C90/IQDX6vB3vaHDTKWQ-KnFZmeiARRCUSoX33a0b7joNMIAA3w?e=bwucD8&nav=MTVfezNEMzhBMDJBLUQzQ0MtNEJDMS1CN0U3LUIwNzEzMjA5N0ZGRH0)  
-**Executive presentation:** [Download the executive presentation](https://github.com/claudiaalamir21-tech/Staples-Inc--Sales-Perfomance-Analysis-By-Excel/raw/refs/heads/main/report/Staples%20Executive%20Presentation.pptx)  
-**Executive summary PDF:** [CEO Email](docs/CEO%20Email.pdf)
+## Executive Presentation
+
+[**View or download the Staples Executive Presentation (PowerPoint)**](https://github.com/claudiaalamir21-tech/Staples-Inc--Sales-Perfomance-Analysis-By-Excel/raw/refs/heads/main/report/Staples%20Executive%20Presentation.pptx)
+
+The presentation summarizes the analysis, highlights the main business risks and opportunities, and outlines practical recommendations.
 
 ## Repository Structure
 
 ```
 ├── README.md
 ├── dashboard/
-│   ├── Executive Retail Dashboard.xlsx.xlsx
 │   └── dashboard preview.png.png
-├── report/
-│   └── Staples Executive Presentation.pptx
-└── docs/
-    └── CEO Email.pdf
+└── report/
+    └── Staples Executive Presentation.pptx
 ```
-
-## How to Explore the Project
-
-1. Download the Excel workbook and open it in Microsoft Excel.
-2. Explore the dashboard and its slicers; some interactive features may depend on Excel desktop support.
-3. Review the presentation and executive summary for the main findings and recommendations.
 
 ## About Me
 
