@@ -2,7 +2,7 @@
 
 **An interactive Excel dashboard and executive review that turns four years of retail sales data into four clear, profit-focused recommendations.**
 
-![Executive Retail Performance Dashboard](dashboard/dashboard preview.png)
+![Executive Retail Performance Dashboard](dashboard/dashboard preview)
 
 > **Disclaimer:** This is a portfolio project built on a simulated, publicly available retail dataset. The Staples name and logo are used for illustration only. No real company data is used, and this project is not affiliated with or endorsed by Staples Inc.
 
